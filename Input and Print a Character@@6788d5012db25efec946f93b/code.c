@@ -1,5 +1,5 @@
 #include <stdio.h>
-char a;
-scanf("%c",&a);
-printf("You entered: %c",a);
+char s;
+scanf("%c",&s);
+printf("You entered: %c",s);
 return 0;
