@@ -22,7 +22,7 @@ int main(){
             printf("%d",result);
         }
         else{
-            printf("Not Divisible");
+            printf("error");
         }
     }
     else{
