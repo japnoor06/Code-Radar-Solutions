@@ -2,8 +2,8 @@
 int main(){
     int a,b,result;
     char operator;
-    scanf("%d%d",&a,&b);
-    scanf("%c",&operator);
+    scanf("%d %d %c",&a,&b,&operator);
+    // scanf("%c",&operator);
     if(operator=='+'){
       result=a+b;
       printf("%d",result);
