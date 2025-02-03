@@ -14,7 +14,7 @@ int main(){
     }
     else if(operator=='*'){
         result=a*b;
-        printf("&d",result);
+        printf("%d",result);
     }
     else if(operator=='/'){
         if(b!=0){
