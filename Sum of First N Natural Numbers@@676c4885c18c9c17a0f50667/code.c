@@ -3,10 +3,9 @@ int main(){
     int N,sum;
     scanf("%d",&N);
     int sum=0;
-    while(i<=n){
-        printf("%d",i);
-        sum+=i;
-
+    for(int i=0;i<=n;i++){
+        sum+=1;
     }
-    return 0;
+    return sum;
 }
+    
