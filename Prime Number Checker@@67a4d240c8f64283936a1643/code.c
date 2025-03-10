@@ -1,3 +1,4 @@
+#include<stdio.h>
 int prime(int x){
     for(int i=1;i<=x/2;i++){
         if(x%i==0){
