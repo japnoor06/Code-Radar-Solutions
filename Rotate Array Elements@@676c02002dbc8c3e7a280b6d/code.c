@@ -7,7 +7,7 @@ void rotate(int arr[],int start,int end){
     }
 }
 int main(){
-int arr[];
+int arr[n];
 int n;
 int k;
 k=k%n;
