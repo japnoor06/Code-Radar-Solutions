@@ -7,11 +7,11 @@ void rotate(int arr[],int start,int end){
     }
 }
 int main(){
-int arr[n];
 int n;
 int k;
 k=k%n;
 scanf("%d",&n);
+int arr[n];
 for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
