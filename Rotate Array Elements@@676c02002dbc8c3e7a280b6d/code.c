@@ -1,5 +1,5 @@
 #include<stdio.h>
-void rotate(int arr[];int start;int end){
+void rotate(int arr[],int start,int end){
     for(int i=start,j=end;i<j;i++,j--){
         int temp=arr[i];
         arr[i]=arr[j];
@@ -7,7 +7,7 @@ void rotate(int arr[];int start;int end){
     }
 }
 int main(){
-int arr[n];
+int arr[];
 int n;
 int k;
 k=k%n;
