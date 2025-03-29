@@ -8,10 +8,11 @@ void rotate(int arr[],int start,int end){
 }
 int main(){
 int n;
-int k;
-k=k%n;
 scanf("%d",&n);
 int arr[n];
+int k;
+scanf("%d",&k);
+k=k%n;
 for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
